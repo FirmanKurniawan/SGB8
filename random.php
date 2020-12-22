@@ -31,7 +31,6 @@ $quotes=array(
 'Hidup tanpa cinta layaknya pohon tanpa bunga dan buah.',
 'Kau akan tahu bahwa kau sedang jatuh cinta ketika kau tidak ingin jatuh tertidur karena realitas tampak lebih indah daripada mimpi.'
 );
-$quote = $quotes[rand(0, 20)];
 
 while(true)
 {
@@ -48,7 +47,7 @@ $headers[] = "Authority: twitter.com";
 $headers[] = "X-Requested-With: XMLHttpRequest";
 $headers[] = "X-Twitter-Active-User: yes";
 $url = 'https://twitter.com/i/tweet/create';
-$post = 'authenticity_token='.$auth.'&batch_mode=off&is_permalink_page=false&place_id=&status='.$quote.' ('.rand(1111,9999).') Happy+anniversary+yang+ke+8th+%F0%9F%8E%89%0A%23AnniversarySGBTeam8th%0A%23SGBTeam%0A%23SGBTeamAnniversary8th%0A%23SGBTeamAnniversary8&tagged_users=';
+$post = 'authenticity_token='.$auth.'&batch_mode=off&is_permalink_page=false&place_id=&status='.$quotes[rand(0, 22)].' ('.rand(1111,9999).') Happy+anniversary+yang+ke+8th+%F0%9F%8E%89%0A%23AnniversarySGBTeam8th%0A%23SGBTeam%0A%23SGBTeamAnniversary8th%0A%23SGBTeamAnniversary8&tagged_users=';
 
 $post = json_decode(yarzCurl($url, $post, false, $headers, true));
 if(isset($post->tweet_id))
