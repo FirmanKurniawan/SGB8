@@ -31,8 +31,7 @@ $quotes=array(
 'Hidup tanpa cinta layaknya pohon tanpa bunga dan buah.',
 'Kau akan tahu bahwa kau sedang jatuh cinta ketika kau tidak ingin jatuh tertidur karena realitas tampak lebih indah daripada mimpi.'
 );
-$random_no = rand(0, 20);
-$quote = $quotes[$random_no];
+$quote = $quotes[rand(0, 20)];
 
 while(true)
 {
