@@ -21,7 +21,7 @@ $quotes=array(
 'Jangan pernah berhenti menunjukkan kepada seseorang betapa mereka sangat berarti bagimu.',
 'Saya menangis karena saya tidak punya sepatu, lalu saya bertemu dengan seorang pria yang tidak punya kaki.',
 'Kuhancurkan tulang-tulangku, tetapi aku tidak membuangnya, sampai aku mendengar suara cinta memanggilku dan melihat jiwaku siap untuk berpetualang.',
-'Berasumsi dengan perasaan, sama saja dengan membiarkan hatimu diracuni harapan baik, padahal boleh jadi kenyataan tidak seperti itu, menyakitkan.",
+'Berasumsi dengan perasaan, sama saja dengan membiarkan hatimu diracuni harapan baik, padahal boleh jadi kenyataan tidak seperti itu, menyakitkan.',
 'Sebab, aku tahu cinta terbaik akan selalu pulang. Jika kau tak kunjung datang, barangkali kau hanya ditakdirkan sebagai kisah yang hanya layak tersimpan sebagai kenangan.',
 'Kadang, yang terindah tak diciptakan untuk dimiliki. Cukup dipandangi dari jauh, lalu disyukuri bahwa ia ada di sana untuk dikagumi dalam diam.',
 'Selalu ada hari baru untuk setiap napas. Selalu ada kesempatan baru untuk kembali tersenyum. Patah hati tidak harus selamanya, kan?',
