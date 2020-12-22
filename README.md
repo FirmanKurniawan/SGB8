@@ -1,4 +1,4 @@
-php random2.php
+php random.php
 
 insert cookie twitternya
 
